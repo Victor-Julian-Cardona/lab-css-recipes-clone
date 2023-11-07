@@ -22,3 +22,97 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.jumbotron {
+  width: 50%;
+  height: 28rem;
+  position: relative;
+  margin: auto;
+  display: block;
+  overflow: hidden;
+}
+
+.jumbotron img {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: -3rem;
+}
+
+.photo-text{
+  position: relative;
+  top: 35%;
+  left: 35%;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.intro {
+  position: relative;
+  width: 42%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  text-align: justify;
+}
+
+.icons1 {
+  width: 50%;
+  position: relative;
+  margin: auto;
+  display: block;
+}
+
+.icons1 img {
+  position: relative;
+  display: block;
+  width: 60%;
+  top: 2rem;
+  left: 10rem;
+}
+
+.icons2 {
+  width: 50%;
+  position: relative;
+  margin: auto;
+  display: block;
+}
+
+.icons2 img {
+  position: relative;
+  display: block;
+  width: 40%;
+  top: 2rem;
+  left: 15rem;
+}
+
+.line {
+  position: relative;
+  border-top: 2px solid rgb(160, 158, 158);
+  width: 750px;
+  margin: 2rem;
+  left: 22rem;
+}
+
+.ingList {
+  position: relative;
+  width: 42%; /* Set to the same width as .intro for consistency */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem; /* Adjust as needed */
+  text-align: justify;
+}
+
+.Directions {
+  position: relative;
+  width: 42%; /* Set to the same width as .intro for consistency */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem; /* Adjust as needed */
+  text-align: justify;
+}
+
+.childList {
+  margin-top: 1rem;
+}
